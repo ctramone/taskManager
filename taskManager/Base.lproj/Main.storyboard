@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="0qp-kR-0AR" id="JQh-Ip-dI2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="TASK MANAGER" id="AAE-de-wLL"/>
+                    <navigationItem key="navigationItem" title="TASK MANAGER" id="AAE-de-wLL">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Vdv-ak-YTc">
+                            <color key="tintColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="0qp-kR-0AR" id="PqI-kk-Cpz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bhF-R9-5XN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
